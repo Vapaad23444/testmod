@@ -11,4 +11,10 @@ public class ModCreativeModeTab {
             return new ItemStack(ModItems.CELESTIAL_BRONZE.get());
         }
     };
+    public static final CreativeModeTab MYTHOS_BLOCKS_TAB = new CreativeModeTab("mythos_blocks") {
+        @Override
+        public @NotNull ItemStack makeIcon() {
+            return new ItemStack(ModItems.CELESTIAL_BRONZE.get());
+        }
+    };
 }

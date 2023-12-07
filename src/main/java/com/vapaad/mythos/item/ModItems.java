@@ -8,7 +8,7 @@ import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 
 public class ModItems {
-    private static final DeferredRegister<Item> ITEMS =
+    public static final DeferredRegister<Item> ITEMS =
             DeferredRegister.create(ForgeRegistries.ITEMS, Mythos.MODID);
 
     public static final RegistryObject<Item> CELESTIAL_BRONZE = ITEMS.register("celestial_bronze",

@@ -1,6 +1,7 @@
 package com.vapaad.mythos;
 
 import com.mojang.logging.LogUtils;
+import com.vapaad.mythos.block.ModBlocks;
 import com.vapaad.mythos.item.ModItems;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
@@ -25,6 +26,7 @@ public class Mythos
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
         ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 

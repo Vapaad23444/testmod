@@ -2,7 +2,8 @@
   "item.mythos.celestial_bronze": "Celestial Bronze Ingot",
   "item.mythos.raw_celestial_bronze": "Raw Celestial Bronze",
 
+  "block.mythos.celestial_bronze_block": "Block of Celestial Bronze",
 
-
+  "itemGroup.mythos_blocks": "Mythos BLocks",
   "itemGroup.mythos_items": "Mythos Resorces"
 }
